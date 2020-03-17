@@ -1,7 +1,7 @@
-n=int(input())
-user_input=input()
+user_input=input("enter value of list: ")
 list=list(map(int,user_input.split()))
-x=int(input())
+x=int(input("enter value of x: "))
+print(list)
 
 def findx(list,si,x):
     l=len(list)
