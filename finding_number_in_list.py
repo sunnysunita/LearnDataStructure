@@ -17,9 +17,9 @@ setrecursionlimit(11000)
 n=int(input())
 arr=list(int(i) for i in input().strip().split(' '))
 x=int(input())
-'''if checkNumber(arr, x):
+if checkNumber(arr, x):
     print('true')
 else:
-    print('false')'''
+    print('false')
 
-print(checkNumber(arr,x))
+#print(checkNumber(arr,x))
