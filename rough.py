@@ -3,6 +3,15 @@ list=list(map(int,user_input.split(" ")))
 x=int(input())'''
 
 
+"""num=int(input("enter number: "))
+def natural(num):
+    if num==1:
+        return 1
+    else:
+        print(num,end=" ")
+        return natural(num-1)
+
+print(natural(num))"""
 
 
 
