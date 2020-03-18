@@ -3,6 +3,60 @@ list=list(map(int,user_input.split(" ")))
 x=int(input())'''
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+"""num=int(input("enter number:" ))
+def print_natural_rev(num):
+    if num==1:
+        print(1)
+    else:
+        print_natural_rev(num-1)
+        print(num)
+
+
+print_natural_rev(num)"""
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 """num=int(input("enter number: "))
 def natural(num):
     if num==1:
