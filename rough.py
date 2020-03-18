@@ -1,19 +1,155 @@
-n=int(input())
 user_input=input()
-list=list(map(int,user_input.split()))
+list=list(map(int,user_input.split(" ")))
 x=int(input())
 
-def findx(list,si,x):
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+"""def findx(list,si,x):
     l=len(list)
     if si==l:
         return -1
-    smalllist=findx(list,si+1,x)
-    if smalllist==-1:
-        if list[si]==x:
-            return si
-        else:
-            return -1
-    else:
-        return smalllist
+    if list[si]==x:
+        return si
+    smalllist=findx(list,si+1,x) #recursion take place here....
+    return smalllist
 
-print(findx(list,0,x))
+print(findx(list,0,x))"""
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+"""def isSorted(list,si):
+    l=len(list)
+    if si==l-1 or si==l:
+        return True
+    if list[si]>list[si+1]:
+        return False
+    smalllist=isSorted(list,si+1)
+    return smalllist"""
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+'''def findx(list,x):
+    l=len(list)
+    if l==0:
+        return -1
+    if list[0]==x:
+        return 1
+    b=list[1:]
+    smalllist=findx(b,x)  #recursion is taken place here..
+    return smalllist
+
+print(findx(list,x))'''
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+'''def sumlist(list):
+    l=len(list)
+    if l==1:
+        return list[0]
+    b=list[1:]
+    smalllist=sumlist(b)  #recursion take place here.
+    sum=list[0]+smalllist
+    return sum
+
+print(sumlist(list))'''
