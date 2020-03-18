@@ -1,8 +1,42 @@
-user_input=input()
+'''user_input=input()
 list=list(map(int,user_input.split(" ")))
-x=int(input())
+x=int(input())'''
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+"""base=int(input("enter base: "))
+power=int(input("enter power: "))
+
+def pow(base,power):
+    if power==0:                        #base case
+        return 1
+    else:
+        out=base*pow(base,power-1)      #recursion
+        return out
+
+print(pow(base,power))"""
 
 
 
