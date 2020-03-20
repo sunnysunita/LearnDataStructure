@@ -3,11 +3,32 @@ list=list(map(int,user_input.split(" ")))
 x=int(input())'''
 
 
-user_input=input("enter string: ")
+list=["a","b","c","d","e","f"]
+l=len(list)
+i=0
+while i<l:
+    print(list[i])
+    i+=1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+"""user_input=input("enter string: ")
 list=list(user_input)
 print(list)
 list.pop(0)
-print(list)
+print(list)"""
 
 
 
