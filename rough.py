@@ -3,10 +3,31 @@ list=list(map(int,user_input.split(" ")))
 x=int(input())'''
 
 
+user_input=input("enter string: ")
+list=list(user_input)
+print(list)
+list.pop(0)
+print(list)
 
 
 
 
+
+
+
+
+
+
+
+
+
+
+"""user_input=input("enter string: ")
+list=list(user_input)
+print(list)
+str="_"                      #intialized the string so there is no any spaces
+print(str.join(list))      #initialization is required..
+"""
 
 
 
