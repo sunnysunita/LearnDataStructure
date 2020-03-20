@@ -15,3 +15,6 @@ def rep_x_with_y(list,si,x,y):
 
 rep_x_with_y(list,0,x,y)
 print(list)
+str1=""
+str1=str1.join(list)
+print(str1)
