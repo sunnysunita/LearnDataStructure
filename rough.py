@@ -2,13 +2,11 @@
 list=list(map(int,user_input.split(" ")))
 x=int(input())'''
 
+print(5//2)
 
-list=["a","b","c","d","e","f"]
-l=len(list)
-i=0
-while i<l:
-    print(list[i])
-    i+=1
+"""list=["a","b","c","d","e","f"]
+list1=list[0:5]
+print(list1)"""
 
 
 
