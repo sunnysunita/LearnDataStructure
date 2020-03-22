@@ -2,7 +2,25 @@
 list=list(map(int,user_input.split(" ")))
 x=int(input())'''
 
-print(5//2)
+"""num=int(input("enter number: "))
+def sum(num):
+    if num<10:
+        return num
+    else:
+        out=num%10+int(sum(int(num/10)))
+        return out
+
+print(sum(num))"""
+
+
+
+
+
+
+
+
+
+
 
 """list=["a","b","c","d","e","f"]
 list1=list[0:5]
