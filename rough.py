@@ -2,6 +2,13 @@
 list=list(map(int,user_input.split(" ")))
 x=int(input())'''
 
+list=[1,2,3,4,5]
+print(list[::-1])
+
+
+
+
+
 """num=int(input("enter number: "))
 def sum(num):
     if num<10:
