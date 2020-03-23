@@ -2,8 +2,28 @@
 list=list(map(int,user_input.split(" ")))
 x=int(input())'''
 
-list=[1,2,3,4,5]
-print(list[::-1])
+
+list=list(range(0,10+1))
+print(list)
+print(range(0,5))
+
+
+
+"""user_input=input()
+list = list(user_input)
+import sys
+sys.setrecursionlimit(100000)
+#print(list)
+
+def conv_str_to_int(list,si,l=len(list)):
+    if si==l:
+        return
+    list[si]=int(list[si])
+    return conv_str_to_int(list,si+1,l)
+
+conv_str_to_int(list,0)
+for e in list:
+    print(e,end="")"""
 
 
 
