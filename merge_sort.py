@@ -28,10 +28,10 @@ def mergeSort(list):
 
     smalllist1=list[0:mid]
     smalllist2=list[mid:]
-    mergeSort(smalllist1)
-    mergeSort(smalllist2)
+    mergeSort(smalllist1)               #T(n/2)
+    mergeSort(smalllist2)               #T(n/2)
 
-    merge(smalllist1,smalllist2,list)
+    merge(smalllist1,smalllist2,list)   #O(n)
 
 
 
