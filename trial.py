@@ -1,21 +1,22 @@
-def intersection(arr1, arr2):
-    i=0
-    j=0
-    while i < len(arr1) and j < len(arr2):
-        if arr1[i] < arr2[j]:
-            i += 1
-        elif arr1[i] > arr2[j]:
-            j += 1
-        else:
-            print(arr1[i])
-            i += 1
-            j += 1
+def find3Numbers(A, arr_size, sum):
+    for i in range(0, arr_size - 1):
+        s = set()
+        curr_sum = sum - A[i]
+        for j in range(i + 1, arr_size):
+            if (curr_sum - A[j]) in s:
+                list0=[A[i],curr_sum - A[j],A[j]]
+                print(min(list0),end=" ")
+                list0.remove(min(list0))
+                print(min(list0),end=" ")
+                print(max(list0))
 
-# Main
-n1=int(input())
-arr1=list(int(i) for i in input().strip().split(' '))
-arr1.sort()
-n2=int(input())
-arr2=list(int(i) for i in input().strip().split(' '))
-arr2.sort()
-intersection(arr1, arr2)
+                #return True
+            s.add(A[j])
+
+    return False
+n=int(input())
+user_input=input()
+A = list(int(i) for i in user_input.strip().split(" "))
+sum =int(input())
+arr_size = len(A)
+find3Numbers(A, arr_size, sum)
